@@ -20,7 +20,7 @@ session_start();
 	$sql = "SELECT * FROM clubs WHERE club_id = $club_id";
 	$result = $conn -> query($sql);
 
-	//store the name and email into variables
+	//store the club name and ground into variables
 if (is_array($result) || is_object($row)) {
 
     foreach ($result as $row) {

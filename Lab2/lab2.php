@@ -24,7 +24,7 @@ session_start();
 	//start our table
 	echo '<table border="1"><tr><th>Club ID</th><th>Club</th><th>Ground</th>';
 	
-	//loop through the data and create a new row with 2 columns for each record
+	//loop through the data and create a new row with 3 columns for each record
 	foreach ($result as $row) {
 		echo '<tr>
             <td>' . $row['club_id']  . '</td>
